@@ -1,0 +1,9 @@
+1 - Type this into the command line to install bower:
+npm install -g bower
+2 - If there is no json file do this to create a json file otherwise go to step 4:
+bower init
+3 - If you just initialised a new json file then install bootstrap and font-awesome:
+bower install bootstrap -S
+bower install font-awesome -S
+4 - If there already is a json file then type this:
+bower install font-awesome -S
